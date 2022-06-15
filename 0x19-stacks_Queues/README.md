@@ -1,4 +1,5 @@
-#Monty
+
+# Monty
 
 A simple integer stack command line interface. Defaults to last in first out, with the queue command switching it to first in first out.
 
@@ -10,32 +11,14 @@ monty can also be said to be an interpreter of Monty ByteCodes files, which is a
 This is a language that contains specific instructions to manipulate data information (stacks or queues), where each instruction (called opcode) is sended per line. Files which contains Monty byte codes usually have the .m extension.
 
 Example (file.m):
-$ cat file.m
- Pushing element to the stack
-push 0
-push 1
-push 2
- Printing all elements
-pall
-push 3
-push 4
-pop
- Rotating the stack to the bottom
-rotr
-pall
-rotl
- Setting FIFO
-queue
-push 5
- Setting LIFO
-stack
-push 5
-$
-##OPCODE
 
-###commands
 
-monty executes the following:
+
+## OPCODE
+
+### commands
+
+Monty executes the following:
 
 1.push 
 
@@ -100,7 +83,8 @@ Rotate stack. Last element becomes top, Top element becomes second from top.
 16.queue
 
  Changes mode to last in first out. Top of stack becomes front of queue.
-##Getting started
+
+## Getting started
 
 To compile all files:
 
@@ -112,6 +96,6 @@ The synopsis of the interpreter is the following:
 $ ./monty [filename]
 $
 
-#Authors
+# Authors
 
 Shalom Muraguri.
