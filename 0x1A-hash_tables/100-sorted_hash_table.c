@@ -33,7 +33,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 
 /**
  * add_n_shash - adds a node at the beginning of a shash at a given index
- * 
+ *
  * @h: head of the shash linked list
  * @key: key of the shash
  * @value: value to store
